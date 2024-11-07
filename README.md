@@ -58,7 +58,7 @@ Se dejará de lado la columna con datos sobre la cancelación para identificar l
 - Trazar distribuciones de características significativas para los clústeres. 
 
 ## Relevancia de los descubrimientos
-El análisis de datos de Instacart reveló patrones importantes en el comportamiento de compra de los clientes. Estos insights pueden ser utilizados para optimizar las estrategias de marketing, gestión de inventarios y mejorar la experiencia del cliente.
+El análisis y testeo de diferentes modelos dio resultados y se pudo encontrar un modelo adecuado para predecir la renuncia. También, las agrupaciones por clústers dieron buenos resultados y en base a estas se hacen recomendaciones de marketing que pueden influir muy positivamente en la tasa de retención del gimnasio.
 
 ## Ejecuta el proyecto [aquí](https://portfoliodabastianlopez.on.drv.tw/Portafolio/An%C3%A1lisis%20Instacart.html)
 Para ver el diccionario de datos, el desarrollo completo en código, todos los gráficos y las conclusiones, haga click en el enlace de arriba.
