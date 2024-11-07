@@ -22,10 +22,40 @@ Con el fin de combatir la cancelación, Model Fitness ha digitalizado varios de 
 - __Bibliotecas:__ Pandas, Matplotlib, Seaborn, Scikit-learn, Scipy.
 
 ## Proceso del Proyecto
-- __Descripción de los datos:__ Los datos fueron extraídos de [cinco datasets](https://drive.google.com/drive/folders/11ludpzThvf-xB6LfZW_xzCBK1Z91M_KA?usp=sharing) proporcionados por Instacart _(los datasets están en Drive porque superan el peso máximo permitido de GitHub)_, en esta fase, también, se les da una revisión superficial y se corrigen problemas de importación si es que llegasen a surgir.
-- __Preprocesamiento de los datos:__ Se realizaron varias operaciones de limpieza, incluyendo manejo de valores nulos, normalización y formateo de datos.
-- __Análisis Exploratorio de Datos (EDA):__ Esta fase se centró en analizar la integridad de los datos y rescatar insights valiosos. Utilizando pandas se exploraron los datos para obtener una comprensión inicial, intermedia y avanzada, y con matplotlib, se generaron visualizaciones para ilustrar los hallazgos clave del análisis.
-- __Resultados:__ Se identificaron patrones y tendencias en los datos, como los productos más vendidos y reordenados, y el comportamiento general de los clientes en términos de cantidad de artículos por pedido.
+Tomando en cuenta los requerimientos, el proyecto de dividirá en cinco pasos:
+
+__Importar librerías y datos.__
+
+- Importar correctamente todas las librerías necesarias para completar el proyecto.
+- Importar correctamente el conjunto de datos proporcionado por la cadena de gimnasios.
+
+__Llevar a cabo el análisis exploratorio de datos (EDA).__
+
+- Revisar en dataset buscando valores ausentes y duplicados, y estudiar los valores promedio y la desviación estándar.
+- Observar los valores medios de las características en dos grupos: para las personas que se fueron (cancelación) y para las que se quedaron.
+- Trazar histogramas de barras y distribuciones de características para aquellas personas que se fueron (cancelación) y para las que se quedaron.
+- Crear una matriz de correlación y visualizarla.
+
+__Construir un modelo para predecir la cancelación de usuarios.__
+
+Se creará un modelo de clasificación binaria para clientes donde la característica objetivo es la marcha del usuario o la usuaria el mes siguiente, para esto se seguirán los siguientes pasos:
+
+- Dividir los datos en conjuntos de entrenamiento y validación.
+- Entrenar el modelo en el set de entrenamiento con dos métodos:
+    - Regresión logística;
+    - Bosque aleatorio.
+- Evaluar la exactitud, precisión y recall para ambos modelos utilizando los datos de validación. Las métricas se usarán para determinar qué modelo funciona mejor.
+
+
+__Crear clústeres de usuarios/as.__
+
+Se dejará de lado la columna con datos sobre la cancelación para identificar los clústeres de objetos (usuarios/as) para esto, se realizarán las siguientes acciones:
+
+- Estandarizar los datos.
+- Crear una matriz de distancias basada en la matriz de características estandarizada y trazar un dendrograma.
+- Entrenar el modelo de clustering con el algortimo K-means y predecir los clústeres de clientes. 
+- Agrupar por cluster y analizar los valores medios de las características y qué grupos son más propensos a irse.
+- Trazar distribuciones de características significativas para los clústeres. 
 
 ## Relevancia de los descubrimientos
 El análisis de datos de Instacart reveló patrones importantes en el comportamiento de compra de los clientes. Estos insights pueden ser utilizados para optimizar las estrategias de marketing, gestión de inventarios y mejorar la experiencia del cliente.
