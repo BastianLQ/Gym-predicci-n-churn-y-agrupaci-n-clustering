@@ -6,12 +6,20 @@ __Proyecto de análisis a la plataforma de delivery Instacart, análisis explora
 _Fragmentos del notebook, para ver proyecto completo hacer click [aquí](https://portfoliodabastianlopez.on.drv.tw/Portafolio/An%C3%A1lisis%20Instacart.html)_
 
 ## Descripción del Proyecto
-Este proyecto tiene como objetivo analizar datos de Instacart para extraer información valiosa sobre el comportamiento de los clientes y las tendencias de los productos. Utilizando [cinco datasets](https://drive.google.com/drive/folders/11ludpzThvf-xB6LfZW_xzCBK1Z91M_KA?usp=sharing) proporcionados por Instacart, se llevó a cabo un proceso de limpieza, análisis y visualización de datos para identificar patrones y tendencias clave.
+La cadena de gimnasios Model Fitness está desarrollando una estrategia de interacción con clientes basada en datos analíticos.
+
+Uno de los problemas más comunes que enfrentan los gimnasios y otros servicios es la pérdida de clientes. ¿Cómo se descubre si un/a cliente ya no está en el gimnasio? Se puede calcular la pérdida en función de las personas que se deshacen de sus cuentas o no renuevan sus contratos. Sin embargo, a veces no es obvio que un/a cliente se haya ido: puede que se vaya de puntillas.
+
+Los indicadores de pérdida varían de un campo a otro. Si un usuario o una usuaria compra en una tienda en línea con poca frecuencia, pero con regularidad, no se puede decir que ha huido. Pero si durante dos semanas no ha abierto un canal que se actualiza a diario, es motivo de preocupación: es posible que el seguidor o seguidor/a se haya aburrido y haya hecho abandono.
+
+En el caso de un gimnasio, tiene sentido decir que un/a cliente se ha ido si no viene durante un mes. Por supuesto, es posible que estén en Cancún y retomen sus visitas cuando regresen, pero ese no es un caso típico. Por lo general, si un/a cliente se une, viene varias veces y luego desaparece, es poco probable que regrese.
+
+Con el fin de combatir la cancelación, Model Fitness ha digitalizado varios de sus perfiles de clientes. La tarea consistió en analizarlos y elaborar una estrategia de retención de clientes.
   
 ## Herramientas Utilizadas
 - __Lenguaje de Programación:__ Python.
 - __Entorno de Desarrollo:__ Jupyter Notebook.
-- __Bibliotecas:__ Pandas, Matplotlib.
+- __Bibliotecas:__ Pandas, Matplotlib, Seaborn, Scikit-learn, Scipy.
 
 ## Proceso del Proyecto
 - __Descripción de los datos:__ Los datos fueron extraídos de [cinco datasets](https://drive.google.com/drive/folders/11ludpzThvf-xB6LfZW_xzCBK1Z91M_KA?usp=sharing) proporcionados por Instacart _(los datasets están en Drive porque superan el peso máximo permitido de GitHub)_, en esta fase, también, se les da una revisión superficial y se corrigen problemas de importación si es que llegasen a surgir.
