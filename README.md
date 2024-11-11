@@ -3,7 +3,7 @@ __Proyecto de análisis a la plataforma de delivery Instacart, análisis explora
 
 <image src="https://github.com/BastianLQ/Gym-prediccion-churn-y-agrupacion-clustering/blob/main/N13.jpg" alt="Collage de gráficos">
 
-_Fragmentos del notebook, para ver proyecto completo hacer click [aquí](https://portfoliodabastianlopez.on.drv.tw/Portafolio/An%C3%A1lisis%20Instacart.html)_
+_Fragmentos del notebook, para ver proyecto completo hacer click [aquí](https://portfoliodabastianlopez.on.drv.tw/Portafolio/P13.html)_
 
 ## Descripción del Proyecto
 La cadena de gimnasios Model Fitness está desarrollando una estrategia de interacción con clientes basada en datos analíticos.
@@ -60,5 +60,5 @@ Se dejará de lado la columna con datos sobre la cancelación para identificar l
 ## Relevancia de los descubrimientos
 El análisis y testeo de diferentes modelos dio resultados y se pudo encontrar un modelo adecuado para predecir la renuncia. También, las agrupaciones por clústers dieron buenos resultados y en base a estas se hacen recomendaciones de marketing que pueden influir muy positivamente en la tasa de retención del gimnasio.
 
-## Ejecuta el proyecto [aquí](https://portfoliodabastianlopez.on.drv.tw/Portafolio/An%C3%A1lisis%20Instacart.html)
+## Ejecuta el proyecto [aquí](https://portfoliodabastianlopez.on.drv.tw/Portafolio/P13.html)
 Para ver el diccionario de datos, el desarrollo completo en código, todos los gráficos y las conclusiones, haga click en el enlace de arriba.
