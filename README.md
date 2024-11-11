@@ -1,5 +1,5 @@
 # Gym-prediccion-churn-y-agrupacion-clustering
-__Proyecto de análisis a la plataforma de delivery Instacart, análisis exploratiorio y visualización de datos__
+__Predicción de churn, agrupación de clientes mediante clustering y recomendaciones de marketing para gym__
 
 <image src="https://github.com/BastianLQ/Gym-prediccion-churn-y-agrupacion-clustering/blob/main/N13.jpg" alt="Collage de gráficos">
 
