@@ -75,5 +75,13 @@ Si se observan los valores medios de esta tabla, se pueden obtener algunas nocio
   
 <image src="https://github.com/BastianLQ/Gym-prediccion-churn-y-agrupacion-clustering/blob/main/Images/output_25_0.png" alt="banner">
 
+Hay dos correlaciones muy altas que son: 
+- "Cantidad de visitas semanales promedio históricamente" y "Cantidad de visitas promedio semanales en el mes presente", esta correlación es lógica y es muy esperable.
+- "Meses faltantes para el término del contrato" y "Periodo de contrato", tambien puede ser lógica, ya que la gente que contrata periodos más largos, generalmente, tiene mucho más tiempo por delante que la gente que contrata periodos cortos.
+
+Se observan también correlaciones negativas interesantes en la columna `Churn` en varias columnas, como es el caso de `Lifetime` y `Age` y `Avg_class_frecuency_current_month`, lo que indicaría que mientras más bajas estas columnas, habría más `Churn`. Con estas observaciones concluye el análisis exploratorio y pasamos a la construcción de los modelos.
+
+
+
 ## Ejecuta el proyecto [aquí](https://portfoliodabastianlopez.on.drv.tw/Portafolio/P13.html)
 Para ver el diccionario de datos, el desarrollo completo en código, todos los gráficos y las conclusiones, haga click en el enlace de arriba.
