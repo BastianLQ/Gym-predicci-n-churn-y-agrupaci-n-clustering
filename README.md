@@ -99,6 +99,10 @@ __La regresión logística con datos estandarizados ha demostrado ser la más ef
 
 ### Agrupación por rasgos clave
 
+Para generar las agrupaciones usando clustering, primero, debemos determinar el número de grupos que se van a generar, para ello se construyó un dendrograma.
+
+<image src="https://github.com/BastianLQ/Gym-prediccion-churn-y-agrupacion-clustering/blob/main/Images/output_39_0.png" alt="dendrograma">
+
 | cluster | gender	| Near_Location	Partner |	Promo_friends |	Phone |	Contract_period |	Group_visits |	Age	Avg_additional_charges_total |	Month_to_end_contract |	Lifetime |	Avg_class_frequency_total |	Avg_class_frequency_current_month |	Churn |
 |---------|---------|-----------------------|---------------|-------|-----------------|--------------|-----------------------------------|-------------------------|----------|----------------------------|-----------------------------------|-------|
 | 0 |	0.502970 |	0.959406 |	0.783168 |	0.574257 |	1.000000 |	10.889109 |	0.542574 |	29.982178 |	160.761016 |	9.954455 |	4.736634 |	1.982055 |	1.974789	| 0.027723 |
