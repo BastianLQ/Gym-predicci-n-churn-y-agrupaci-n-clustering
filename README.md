@@ -83,6 +83,21 @@ Se observan también correlaciones negativas interesantes en la columna `Churn` 
 
 ### Parte 2: Predecir la renuncia
 
+Para entrenar los modelos, se dividen los datos en `X` e `y` (Los valores de característica y la variable objetivo, respectivamente), estos datos se han vuelto a dividir en una proporción de 80/20 para entrenamiento y prueba, respectivamente. Finalmente se estandarizan los datos numéricos de entrenamiento (los booleanos como 0 y 1 o la columna `Contract_period` no cuentan como numéricos).
+
+Los modelos a entrenar y sus respectivos resultados, son los siguientes:
+- Regresión Logística:
+  - Exactitud: 92%.
+  - Precisión: 82%.
+  - Recall: 84% 
+- RandomForestClassifier:
+  - Exactitud: 92%.
+  - Precisión: 84%.
+  - Recall: 81%
+ 
+__La regresión logística con datos estandarizados ha demostrado ser la más efectiva para predecir cancelaciones__ ya que tiene más alta la métrica `Recall` y nuestro objetivo de negocio hace preferible un falso positivo (Dar beneficios a alguien que no va a renunciar) a un falso negativo (No tomar acción sobre una renuncia inminente).
+
+### Agrupación por rasgos clave
 
 ## Ejecuta el proyecto [aquí](https://portfoliodabastianlopez.on.drv.tw/Portafolio/P13.html)
 Para ver el diccionario de datos, el desarrollo completo en código, todos los gráficos y las conclusiones, haga click en el enlace de arriba.
