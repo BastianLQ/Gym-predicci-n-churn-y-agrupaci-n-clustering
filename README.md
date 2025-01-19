@@ -113,7 +113,11 @@ Observando las ramas y los colores del gráfico, se determinó que se crearán _
 | 3 |	0.485737 |	1.000000 |	0.350238 |	0.240095 |	1.000000 |	1.948494 |	0.341521 |	28.167987 |	131.622204 |	1.856577 |	2.440571 |	1.247634 |	1.012983 |	0.514263 |
 | 4 |	0.559666 |	0.976134 |	0.356802 |	0.230310 |	0.998807 |	2.669451 |	0.473747 |	30.125298 |	161.657905 |	2.459427 |	4.898568 |	2.852002 |	2.850161 |	0.068019 |
 
+Observando los clusteres en base a la cancelación, podemos separarlos en dos grupos:
+- 0 y 4: tienen una tasa de cancelación bajísima, por lo que, __para disminuir la tasa de cancelación, debemos hacer que el resto de los usuarios comparta sus características clave__.
+- 1, 2 y 3: tienen una tasa de cancelación alta: tienen características que hay que trabajar, en la conclusión se detallarán.
 
+Ahora se mostrarán algunas distribuciones de características importantes, para lo cual se utiliza una función con el fin de automatizar el proceso.
 
 ## Ejecuta el proyecto [aquí](https://portfoliodabastianlopez.on.drv.tw/Portafolio/P13.html)
 Para ver el diccionario de datos, el desarrollo completo en código, todos los gráficos y las conclusiones, haga click en el enlace de arriba.
