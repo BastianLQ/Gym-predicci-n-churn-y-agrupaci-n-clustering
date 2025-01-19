@@ -3,7 +3,7 @@ __Predicción de churn, agrupación de clientes mediante clustering y recomendac
 
 <image src="https://github.com/BastianLQ/Gym-prediccion-churn-y-agrupacion-clustering/blob/main/Images/banner.png" alt="banner">
 
-_Fragmentos del notebook, para ver proyecto completo hacer click [aquí](https://portfoliodabastianlopez.on.drv.tw/Portafolio/P13.html)_
+_Para ver desarrollo en código hacer click [aquí](https://portfoliodabastianlopez.on.drv.tw/Portafolio/P13.html)_
 
 ## Descripción del Proyecto
 La cadena de gimnasios Model Fitness está desarrollando una estrategia de interacción con clientes basada en datos analíticos.
