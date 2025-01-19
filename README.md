@@ -122,7 +122,27 @@ Observando los clusteres en base a la cancelación, podemos separarlos en dos gr
   - __Trabajar en una compañía asociada.__ 
 - __1, 2 y 3__: tienen una tasa de cancelación alta: tienen características que hay que trabajar, en la conclusión se detallarán.
 
-Ahora se mostrarán algunas distribuciones de características importantes, para lo cual se utiliza una función con el fin de automatizar el proceso.
+Ahora se mostrarán algunas distribuciones de características importantes, esto nos permitirá observar relaciones interesantes y visualizar los grupos formados.
+
+<image src="https://github.com/BastianLQ/Gym-prediccion-churn-y-agrupacion-clustering/blob/main/Images/output_49_0.png" alt="dispersión">
+
+Aquí se pueden ver claramente los clusteres con más retención separados del resto, este gráfico indica que __los clientes que tienen altas probalidades de cancelar van al gimnasio menos de tres veces por semana__, esta información es muy util para desarrollar alguna estrategia de marketing para retener a los clientes.
+
+<image src="https://github.com/BastianLQ/Gym-prediccion-churn-y-agrupacion-clustering/blob/main/Images/output_51_0.png" alt="dispersión">
+
+En esta distribución se puede observar claramente que __las personas que contratan 12 meses de gimnasio, son las del cluster que tiene la mejor tasa de retención__.
+
+### Recomendaciones
+
+Una vez terminado este proceso y recordando el objetivo del análisis, que es disminuir la tasa de cancelación de los usuarios, es que se harán cuatro sugerecias de marketing para mejorar la métrica objetivo:
+
+- Los clusters que más se dan de baja del gym son de usuarios que van menos de 3 veces por semana al gimnasio, y ,mientras más tiempo de vida en el recinto lleva un usuario, es menos probable que abandone. Por ende se __podría premiar la asistencia sostenida en el tiempo por 3 o más veces por semana__, dando regalos o sorteando premios entre quienes vayan haciendo "a racha de asistencia".
+
+- __Las personas que contratan 12 meses de gimnasio, son las del cluster que tiene la mejor tasa de retención__, por ende, hacer descuentos o "dos por" traería, en teoría, fieles usuarios del gimnasio.
+
+- Observando los clusters se puede observar que en promedio, __los grupos que más gastan comprando artículos en el gym tienen a renunciar menos__, por ende se pueden hacer descuentos estratégicos en los productos o regalar una bebida o snack proteico al momento de la contratación para familiarizar al usuario con los productos del local.
+
+- Los clusters que más hacen actividades grupales, tienden a renunciar menos, por lo que __es conveniente incentivar a los usuarios a participar de actividades en grupo__, regalando una clase al momento de contratar o en su cumpleaños (por ejemplo).
 
 ## Ejecuta el proyecto [aquí](https://portfoliodabastianlopez.on.drv.tw/Portafolio/P13.html)
 Para ver el diccionario de datos, el desarrollo completo en código, todos los gráficos y las conclusiones, haga click en el enlace de arriba.
