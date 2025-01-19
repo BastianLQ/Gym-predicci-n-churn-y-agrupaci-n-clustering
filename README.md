@@ -101,7 +101,11 @@ __La regresión logística con datos estandarizados ha demostrado ser la más ef
 
 | cluster | gender	| Near_Location	Partner |	Promo_friends |	Phone |	Contract_period |	Group_visits |	Age	Avg_additional_charges_total |	Month_to_end_contract |	Lifetime |	Avg_class_frequency_total |	Avg_class_frequency_current_month |	Churn |
 |---------|---------|-----------------------|---------------|-------|-----------------|--------------|-----------------------------------|-------------------------|----------|----------------------------|-----------------------------------|-------|
-
+| 0 |	0.502970 |	0.959406 |	0.783168 |	0.574257 |	1.000000 |	10.889109 |	0.542574 |	29.982178 |	160.761016 |	9.954455 |	4.736634 |	1.982055 |	1.974789	| 0.027723 |
+| 1 |	0.522078 |	0.862338 |	0.470130 |	0.306494 |	0.000000 |	4.787013 |	0.425974 |	29.301299 |	143.957664 |	4.475325 |	3.924675 |	1.847220 |	1.716369	| 0.267532 |
+| 2 |	0.495050 |	0.000000 |	0.463366 |	0.079208 |	1.000000 |	2.352475 |	0.215842 |	28.477228 |	135.457501 |	2.198020 |	2.809901 |	1.660461 |	1.477324	| 0.443564 |
+| 3 |	0.485737 |	1.000000 |	0.350238 |	0.240095 |	1.000000 |	1.948494 |	0.341521 |	28.167987 |	131.622204 |	1.856577 |	2.440571 |	1.247634 |	1.012983 |	0.514263 |
+| 4 |	0.559666 |	0.976134 |	0.356802 |	0.230310 |	0.998807 |	2.669451 |	0.473747 |	30.125298 |	161.657905 |	2.459427 |	4.898568 |	2.852002 |	2.850161 |	0.068019 |
 
 ## Ejecuta el proyecto [aquí](https://portfoliodabastianlopez.on.drv.tw/Portafolio/P13.html)
 Para ver el diccionario de datos, el desarrollo completo en código, todos los gráficos y las conclusiones, haga click en el enlace de arriba.
