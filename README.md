@@ -99,5 +99,9 @@ __La regresión logística con datos estandarizados ha demostrado ser la más ef
 
 ### Agrupación por rasgos clave
 
+| cluster | gender	| Near_Location	Partner |	Promo_friends |	Phone |	Contract_period |	Group_visits |	Age	Avg_additional_charges_total |	Month_to_end_contract |	Lifetime |	Avg_class_frequency_total |	Avg_class_frequency_current_month |	Churn |
+|---------|---------|-----------------------|---------------|-------|-----------------|--------------|-----------------------------------|-------------------------|----------|----------------------------|-----------------------------------|-------|
+
+
 ## Ejecuta el proyecto [aquí](https://portfoliodabastianlopez.on.drv.tw/Portafolio/P13.html)
 Para ver el diccionario de datos, el desarrollo completo en código, todos los gráficos y las conclusiones, haga click en el enlace de arriba.
