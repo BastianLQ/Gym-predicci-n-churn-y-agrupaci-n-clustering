@@ -62,8 +62,8 @@ Se dejará de lado la columna con datos sobre la cancelación para identificar l
 
 Características promedio de quienes siguen siendo clientes y de quienes terminaron dándose de baja:
 
-| Cluster | gender |	Near_Location	Partner |	Promo_friends	Phone |	Contract_period	Group_visits |	Age |	Avg_additional_charges_total |	Month_to_end_contract	| Lifetime	| Avg_class_frequency_total |	Avg_class_frequency_current_month |
-|---------|--------|------------------------|---------------------|------------------------------|------|------------------------------|------------------------|-----------|---------------------------|------------------------------------------|
+| Cluster | gender |	Near_Location |	Partner |	Promo_friends	Phone |	Contract_period	Group_visits |	Age |	Avg_additional_charges_total |	Month_to_end_contract	| Lifetime	| Avg_class_frequency_total |	Avg_class_frequency_current_month |
+|---------|--------|----------------|---------|---------------------|------------------------------|------|------------------------------|------------------------|-----------|---------------------------|-------------------------------------------|
 | 0 |	0.510037 |	0.873086 |	0.534195 |	0.353522 |	0.903709 |	5.747193 |	0.464103 |	29.976523 |	158.445715 |	5.283089 |	4.711807 |	2.024876 |	2.027882 |
 | 1 |	0.510839 |	0.768143 |	0.355325 |	0.183789 |	0.902922 |	1.728558 |	0.268615 |	26.989632 |	115.082899 |	1.662582 |	0.990575 |	1.474995 |	1.044546 |
 
