@@ -58,7 +58,13 @@ Se dejará de lado la columna con datos sobre la cancelación para identificar l
 - Trazar distribuciones de características significativas para los clústeres. 
 
 ## Descubrimientos importantes
-El análisis y testeo de diferentes modelos dio resultados y se pudo encontrar un modelo adecuado para predecir la renuncia. También, las agrupaciones por clústers dieron buenos resultados y en base a estas se hacen recomendaciones de marketing que pueden influir muy positivamente en la tasa de retención del gimnasio.
+### Parte 1: Análisis exploratorio de datos
+
+- Características promedio de quienes siguen siendo clientes y de quienes terminaron dándose de baja:
+
+| Cluster | gender |	Near_Location	Partner |	Promo_friends	Phone |	Contract_period	Group_visits |	Age	Avg_additional_charges_total |	Month_to_end_contract	| Lifetime	| Avg_class_frequency_total |	Avg_class_frequency_current_month |
+|---------|--------|------------------------|---------------------|------------------------------|-----------------------------------|------------------------|---------------|---------------------------|-----------------------------------|
+
 
 ## Ejecuta el proyecto [aquí](https://portfoliodabastianlopez.on.drv.tw/Portafolio/P13.html)
 Para ver el diccionario de datos, el desarrollo completo en código, todos los gráficos y las conclusiones, haga click en el enlace de arriba.
