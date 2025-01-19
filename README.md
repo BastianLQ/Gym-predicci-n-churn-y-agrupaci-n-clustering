@@ -1,7 +1,7 @@
 # Mejora en la retención de usuarios: Model Fitness
 __Predicción de churn, agrupación de clientes mediante clustering y recomendaciones de marketing para gym__
 
-<image src="https://github.com/BastianLQ/Gym-prediccion-churn-y-agrupacion-clustering/blob/main/N13.jpg" alt="Collage de gráficos">
+<image src="https://github.com/BastianLQ/Gym-prediccion-churn-y-agrupacion-clustering/blob/main/Images/banner.png" alt="banner">
 
 _Fragmentos del notebook, para ver proyecto completo hacer click [aquí](https://portfoliodabastianlopez.on.drv.tw/Portafolio/P13.html)_
 
