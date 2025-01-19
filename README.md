@@ -62,8 +62,8 @@ Se dejará de lado la columna con datos sobre la cancelación para identificar l
 
 Características promedio de quienes siguen siendo clientes y de quienes terminaron dándose de baja:
 
-| Cluster | gender |	Near_Location	Partner |	Promo_friends	Phone |	Contract_period	Group_visits |	Age	Avg_additional_charges_total |	Month_to_end_contract	| Lifetime	| Avg_class_frequency_total |	Avg_class_frequency_current_month |
-|---------|--------|------------------------|---------------------|------------------------------|-----------------------------------|------------------------|---------------|---------------------------|-----------------------------------|
+| Cluster | gender |	Near_Location	Partner |	Promo_friends	Phone |	Contract_period	Group_visits |	Age |	Avg_additional_charges_total |	Month_to_end_contract	| Lifetime	| Avg_class_frequency_total |	Avg_class_frequency_current_month |
+|---------|--------|------------------------|---------------------|------------------------------|------|------------------------------|------------------------|-----------|---------------------------|------------------------------------------|
 | 0 |	0.510037 |	0.873086 |	0.534195 |	0.353522 |	0.903709 |	5.747193 |	0.464103 |	29.976523 |	158.445715 |	5.283089 |	4.711807 |	2.024876 |	2.027882 |
 | 1 |	0.510839 |	0.768143 |	0.355325 |	0.183789 |	0.902922 |	1.728558 |	0.268615 |	26.989632 |	115.082899 |	1.662582 |	0.990575 |	1.474995 |	1.044546 |
 
@@ -105,8 +105,8 @@ Para generar las agrupaciones usando clustering, primero, debemos determinar el 
 
 Observando las ramas y los colores del gráfico, se determinó que se crearán __5 grupos__. Una vez creados los grupos se agrupan para visualizar una tabla con el promedio de las características.
 
-| cluster | gender	| Near_Location	Partner |	Promo_friends |	Phone |	Contract_period |	Group_visits |	Age	Avg_additional_charges_total |	Month_to_end_contract |	Lifetime |	Avg_class_frequency_total |	Avg_class_frequency_current_month |	Churn |
-|---------|---------|-----------------------|---------------|-------|-----------------|--------------|-----------------------------------|-------------------------|----------|----------------------------|-----------------------------------|-------|
+| cluster | gender	| Near_Location	Partner |	Promo_friends |	Phone |	Contract_period |	Group_visits |	Age	| Avg_additional_charges_total |	Month_to_end_contract |	Lifetime |	Avg_class_frequency_total |	Avg_class_frequency_current_month |	Churn |
+|---------|---------|-----------------------|---------------|-------|-----------------|--------------|------|------------------------------|------------------------|----------|----------------------------|-----------------------------------------|-------|
 | 0 |	0.502970 |	0.959406 |	0.783168 |	0.574257 |	1.000000 |	10.889109 |	0.542574 |	29.982178 |	160.761016 |	9.954455 |	4.736634 |	1.982055 |	1.974789	| 0.027723 |
 | 1 |	0.522078 |	0.862338 |	0.470130 |	0.306494 |	0.000000 |	4.787013 |	0.425974 |	29.301299 |	143.957664 |	4.475325 |	3.924675 |	1.847220 |	1.716369	| 0.267532 |
 | 2 |	0.495050 |	0.000000 |	0.463366 |	0.079208 |	1.000000 |	2.352475 |	0.215842 |	28.477228 |	135.457501 |	2.198020 |	2.809901 |	1.660461 |	1.477324	| 0.443564 |
