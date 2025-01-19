@@ -60,7 +60,7 @@ Se dejará de lado la columna con datos sobre la cancelación para identificar l
 ## Descubrimientos importantes
 ### Parte 1: Análisis exploratorio de datos
 
-- Características promedio de quienes siguen siendo clientes y de quienes terminaron dándose de baja:
+Características promedio de quienes siguen siendo clientes y de quienes terminaron dándose de baja:
 
 | Cluster | gender |	Near_Location	Partner |	Promo_friends	Phone |	Contract_period	Group_visits |	Age	Avg_additional_charges_total |	Month_to_end_contract	| Lifetime	| Avg_class_frequency_total |	Avg_class_frequency_current_month |
 |---------|--------|------------------------|---------------------|------------------------------|-----------------------------------|------------------------|---------------|---------------------------|-----------------------------------|
@@ -69,7 +69,7 @@ Se dejará de lado la columna con datos sobre la cancelación para identificar l
 
 Si se observan los valores medios de esta tabla, se pueden obtener algunas nociones de los factores que podrían incidir en la cancelación, por ejemplo en columnas como `Lifetime` la diferencia es muy grande e indica que __quienes cancelan, llevan, en promedio, menos tiempo de vida en el gimnasio que quienes siguen siendo clientes__. También hay columnas que parecen no tener influencia alguna, como `gender` y `Phone` que se mantienen iguales en ambas filas.
 
-- Se analiza la distribución de las columnas y se encuentran muchas características con distribuciones disparejas, por lo que __al momento de entrenar los modelos, se deberá estandarizar los datos__.
+Se analiza la distribución de las columnas y se encuentran muchas características con distribuciones disparejas, por lo que __al momento de entrenar los modelos, se deberá estandarizar los datos__.
 
 Una parte importante del análisis exploratorio es la matriz de correlaciones.
   
@@ -81,6 +81,7 @@ Hay dos correlaciones muy altas que son:
 
 Se observan también correlaciones negativas interesantes en la columna `Churn` en varias columnas, como es el caso de `Lifetime` y `Age` y `Avg_class_frecuency_current_month`, lo que indicaría que mientras más bajas estas columnas, habría más `Churn`. Con estas observaciones concluye el análisis exploratorio y pasamos a la construcción de los modelos.
 
+### Parte 2: Predecir la renuncia
 
 
 ## Ejecuta el proyecto [aquí](https://portfoliodabastianlopez.on.drv.tw/Portafolio/P13.html)
