@@ -71,7 +71,7 @@ Si se observan los valores medios de esta tabla, se pueden obtener algunas nocio
 
 - Se analiza la distribución de las columnas y se encuentran muchas características con distribuciones disparejas, por lo que __al momento de entrenar los modelos, se deberá estandarizar los datos__.
 
-- Matriz de correlaciones
+Una parte importante del análisis exploratorio es la matriz de correlaciones.
   
 <image src="https://github.com/BastianLQ/Gym-prediccion-churn-y-agrupacion-clustering/blob/main/Images/output_25_0.png" alt="banner">
 
