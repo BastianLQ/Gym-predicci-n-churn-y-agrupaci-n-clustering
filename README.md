@@ -115,11 +115,11 @@ Observando las ramas y los colores del gráfico, se determinó que se crearán _
 
 Observando los clusteres en base a la cancelación, podemos separarlos en dos grupos:
 - __0 y 4__: tienen una tasa de cancelación bajísima, por lo que, __para disminuir la tasa de cancelación, debemos hacer que el resto de los usuarios comparta sus características clave__, que serían:
-  - Tener más de cuatro meses en el gym.
-  - Pagar, en promedio, 160 dólares en cargos adicionales del gym (evidentemente no se trata de generar cobros porque si, sino incentivar al cliente a comprar productos del gimnasio).
-  - Hacen actividades grupales.
-  - Contratar el plan de 12 meses.
-  - Trabajar en una compañía asociada. 
+  - __Tener más de cuatro meses en el gym.__
+  - __Pagar, en promedio, 160 dólares en cargos adicionales del gym (evidentemente no se trata de generar cobros porque si, sino incentivar al cliente a comprar productos del gimnasio).__
+  - __Hacen actividades grupales.__
+  - __Contratar el plan de 12 meses.__
+  - __Trabajar en una compañía asociada.__ 
 - __1, 2 y 3__: tienen una tasa de cancelación alta: tienen características que hay que trabajar, en la conclusión se detallarán.
 
 Ahora se mostrarán algunas distribuciones de características importantes, para lo cual se utiliza una función con el fin de automatizar el proceso.
