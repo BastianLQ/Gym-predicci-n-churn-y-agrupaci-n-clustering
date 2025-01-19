@@ -1,4 +1,4 @@
-# Gym-prediccion-churn-y-agrupacion-clustering
+# Mejora en la retención de usuarios: Model Fitness
 __Predicción de churn, agrupación de clientes mediante clustering y recomendaciones de marketing para gym__
 
 <image src="https://github.com/BastianLQ/Gym-prediccion-churn-y-agrupacion-clustering/blob/main/N13.jpg" alt="Collage de gráficos">
